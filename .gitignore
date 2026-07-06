@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+**/dist/
+build/
+**/build/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Runtime uploads and generated files
+uploads/
+**/uploads/
+outputs/
+
+# Logs
+*.log
+*.err
+*.out
+backend-start*
+
+# Codex / local working folders
+.agents/
+.codex/
+.codex_tmp/
+_tmp_restore_project/
+
+# Temporary helper files
+_edit_category_modal*
+tmp-*
+*.tmp
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
